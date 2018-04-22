@@ -1,0 +1,9 @@
+<p>
+  List of accrual-rule 
+</p>
+<ul *ngIf="accrualRules">
+  <li *ngFor="let ar of accrualRules">
+    {{ar.contractingParty}} - {{ar.contractid}}    
+  </li>
+
+</ul>
